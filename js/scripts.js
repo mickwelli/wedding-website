@@ -245,6 +245,11 @@ function initMap() {
         position: location,
         map: map
     });
+
+    var marker2 = new google.maps.Marker({
+        position: location,
+        map: map
+    });
 }
 
 function initBBSRMap() {
