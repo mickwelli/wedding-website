@@ -184,10 +184,12 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Michael & Peta's Wedding",
+            title: "Michael and Peta's Wedding",
 
             // Event start date
             start: new Date('Apr 6, 2024 15:00'),
+
+	    end: new Date('Apr 6, 2024 23:00'),
 
             // Event Address
             address: "St Mary's Cathedral, 90 Smith St, Darwin NT",
