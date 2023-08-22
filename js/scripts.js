@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Michael and Peta's Wedding",
+            title: "Peta and Michael's Wedding",
 
             // Event start date
             start: new Date('Apr 6, 2024 15:00'),
