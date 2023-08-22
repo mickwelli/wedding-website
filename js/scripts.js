@@ -234,7 +234,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var locations = {lat: -12.45914, lng: 130.83818};
+    var location = {lat: -12.45914, lng: 130.83818};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
