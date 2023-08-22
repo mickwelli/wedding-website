@@ -211,7 +211,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbwX2jCfsFOv_leS6DESBqGAuMLBsNRrVmEDwrad2d-XDoKhRp5MD_T4Ng0kbQwRfAEU/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbxWYN3sLP4ykYaidc2qugfewMg39aU5bVQwKAS20h0ODeQ_4N9EPOjamMkdd_QPDX-e/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
@@ -236,7 +236,7 @@ $(document).ready(function () {
 function initMap() {
     var location = {lat: -12.45914, lng: 130.83818};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
+        zoom: 12,
         center: location,
         scrollwheel: false
     });
@@ -250,7 +250,7 @@ function initMap() {
 function initBBSRMap() {
     var la_fiesta = {lat: -12.45914, lng: 130.83818};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
+        zoom: 12,
         center: la_fiesta,
         scrollwheel: false
     });
