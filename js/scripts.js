@@ -247,7 +247,7 @@ function initMap() {
     });
 
     var marker2 = new google.maps.Marker({
-        position: location,
+        position: {lat: -12.41272, lng: 130.82359},
         map: map
     });
 }
